@@ -8,5 +8,23 @@
 <body>
     <div>Content goes here!</div>
     <script src="js/main.js"></script>
+    <script>
+        var calculator = {
+            sum: 0,
+            startnumnber: 1109,
+            stepdownnumber: 11,
+            endnumber: 119,
+            addup: function () {
+                for (counter = startnumber; counter > endnumber; counter -= this.stepdownnumber) {
+                    sum += counter;
+
+                }
+                return sum;
+
+
+            }
+        };
+        document.write(calculator.addup();
+    </script>
 </body>
 </html>
